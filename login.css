@@ -1,0 +1,131 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, sans-serif; /* Clean and professional font */
+}
+
+/* Body Styling */
+body {
+    background-color: #f9f5f0; /* Soft beige background */
+    color: #333333; /* Dark gray text for contrast */
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header Styling */
+header {
+    background-color: #ffffff; /* Crisp white header */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #eaeaea; /* Subtle divider */
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* Light shadow for elevation */
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #4b4033; /* Warm dark brown */
+    font-weight: 600;
+}
+
+/* Main Styling */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Form Styling */
+form {
+    background-color: #ffffff; /* White form background */
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #e0d8d2; /* Light beige border for structure */
+}
+
+form label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #6a5845; /* Medium brown */
+    margin-bottom: 8px;
+    display: block;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #d4c4b5; /* Subtle tan border */
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #fafafa; /* Light neutral background */
+    color: #4b4033;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus {
+    border-color: #b79c88; /* Soft brown focus effect */
+    outline: none;
+    box-shadow: 0 0 5px rgba(183, 156, 136, 0.3); /* Soft glow */
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #b79c88; /* Classic warm brown */
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form button:hover {
+    background-color: #9d7e6b; /* Slightly darker brown */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ffffff; /* Neutral footer background */
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6c757d; /* Muted gray */
+    width: 100%;
+    border-top: 2px solid #eaeaea;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.05);
+}
+
+footer p {
+    margin-top: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    form {
+        padding: 20px;
+        width: 90%;
+    }
+
+    form input,
+    form button {
+        font-size: 1rem;
+    }
+}

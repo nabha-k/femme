@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Leaderboard</h1>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="educational.html">Educational Modules</a>
+            <a href="quiz.html">Quizzes</a>
+            <a href="challenges.html">Challenges</a>
+            <a href="rewards.html">Rewards</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Top Performers</h2>
+            <ol>
+                <li>User1 - 1500 points</li>
+                <li>User2 - 1400 points</li>
+                <li>User3 - 1300 points</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Financial Literacy for Women. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,18 +1,33 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+/* Body Styling */
 body {
+    background-color: #e0d1bc; /* Soft beige */
+    color: #6c4c24; /* Dark brown */
+    font-size: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f5eaf4;
 }
 
+/* Header Styling */
 header {
-    width: 100%;
-    background-color: #dca8d4;
-    color: white;
-    padding: 10px 0;
+    background-color: #e6bf96; /* Light tan */
+    padding: 20px;
     text-align: center;
+    border-bottom: 1px solid #a27c58;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #765532;
+    margin-bottom: 10px;
 }
 
 header nav {
@@ -20,64 +35,19 @@ header nav {
 }
 
 header nav a {
-    margin: 0 10px;
-    color: white;
+    color: #5c4c3c;
     text-decoration: none;
+    margin: 0 15px;z
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
 
 header nav a:hover {
-    text-decoration: underline;
+    color: #826645;
 }
 
-main {
-    width: 80%;
-    max-width: 800px;
-    background-color: white;
-    padding: 20px;
-    margin: 20px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-footer {
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
-    background-color: #f3b6de;
-    color: white;
-    position: absolute;
-    bottom: 0;
-}
-
-button {
-    background-color: #ee99c1;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #e79ed4;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label {
-    margin: 10px 0 5px;
-}
-
-form input {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #f7a4f1;
-    border-radius: 5px;
-}
-
-form button {
-    align-self: flex-start;
-}
+/* Section Styling */
+section {
+    padding: 40px 20px;
+    w
